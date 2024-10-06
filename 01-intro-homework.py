@@ -5,7 +5,7 @@ import pandas as pd
 print(pd.__version__)
 
 # Load the data
-df = pd.read_csv("laptops.csv")
+df = pd.read_csv(".../laptops.csv")
 
 # Question 2. Records count
 print(df.info())
